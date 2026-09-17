@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsightHub | Business Analytics</title>
+
+  <!-- Google Analytics: replace G-XXXXXXXXXX with your Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">InsightHub</a>
+      <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Business Analytics</span>
+          <h1>Turn business data into smarter decisions.</h1>
+          <p>
+            InsightHub is a simple educational website created to demonstrate
+            how businesses can use analytics to understand visitors, engagement,
+            and performance.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="about.html">Learn More</a>
+            <a class="btn secondary" href="#metrics">View Metrics</a>
+          </div>
+        </div>
+
+        <div class="card metric-card">
+          <p class="small">Sample Dashboard</p>
+          <div class="metric">
+            <span>Website Visitors</span>
+            <strong>1,248</strong>
+          </div>
+          <div class="metric">
+            <span>Conversion Rate</span>
+            <strong>4.8%</strong>
+          </div>
+          <div class="metric">
+            <span>Avg. Engagement</span>
+            <strong>2m 14s</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="metrics" class="section">
+      <div class="container">
+        <h2>What can analytics tell us?</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Audience</h3>
+            <p>Understand where visitors come from and what devices they use.</p>
+          </article>
+          <article class="card">
+            <h3>Engagement</h3>
+            <p>Measure how users interact with pages and how long they stay.</p>
+          </article>
+          <article class="card">
+            <h3>Performance</h3>
+            <p>Track important actions and evaluate whether business goals are being achieved.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Business Analytics Assignment Website</div>
+  </footer>
+</body>
+</html>
